@@ -21,11 +21,11 @@ const About = () => {
                   LET ME <span className="yellow"> INTRODUCE </span> MYSELF
                 </h1>
                 <p className="home-about-body">
-                 Hi, my name is <span className="yellow">Md Abu Bakkar Siddiqe Sajib </span>
-                 and I'm from <span className="yellow"> Dhaka, Bangladesh.</span>
+                 Hi, my name is <span className="yellow">Gourav Ghoshi </span>
+                 and I'm from <span className="yellow"> Bhopal , Madhaya Pradesh</span>
                 <br />
                 <br />
-                I recently graduated with a Bachelor's degree in Computer Science and Engineering in 2021.
+                I am currently pursuing my Bachelor's degree in Information Technology.
                 <br />
                 <br />
                   As a
@@ -34,8 +34,7 @@ const About = () => {
                   <br />
                   <br />I am proficient in
                     <b className="yellow"> Javascript, </b>
-                    as well as have knowledge in programming languages such as C, Java, Python,
-                  <b className="yellow"> GraphQL, and Solidity.</b>
+                    as well as have knowledge in programming languages such as C, C++, Java, Python,
                   <br />
                   <br />
                   I have a passion for working
@@ -77,7 +76,7 @@ const About = () => {
                 <ul className="home-about-social-links">
                   <li className="social-icons">
                     <a
-                      href="https://github.com/19sajib"
+                      href="https://github.com/gouravghoshi55"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour  home-social-icons"
@@ -86,7 +85,7 @@ const About = () => {
                       <AiFillGithub />
                     </a>
                   </li>
-                  <li className="social-icons">
+                  {/* <li className="social-icons">
                     <a
                       href="https://twitter.com/19sajib"
                       target="_blank"
@@ -96,10 +95,10 @@ const About = () => {
                     >
                       <AiOutlineTwitter />
                     </a>
-                  </li>
+                  </li> */}
                   <li className="social-icons">
                     <a
-                      href="https://www.linkedin.com/in/19sajib/"
+                      href="https://www.linkedin.com/in/gourav-ghoshi-139629252/"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour  home-social-icons"
@@ -110,11 +109,11 @@ const About = () => {
                   </li>
                   <li className="social-icons">
                     <a
-                      href="https://leetcode.com/19sajib/"
+                      href="https://leetcode.com/u/gourav_6/"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour home-social-icons"
-                      aria-label="instagram"
+                      aria-label="leetcode"
                     >
                       <SiLeetcode />
                     </a>

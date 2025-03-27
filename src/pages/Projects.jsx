@@ -2,10 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/Projects/ProjectCard";
 import Particle from "../components/Particle";
-import pg from "../assets/projects/pg.png";
 import project from "../assets/projects/project.jpeg";
 import lift from "../assets/projects/lift.png";
-import krypto from "../assets/projects/krypto.png";
 import kickstart from "../assets/projects/kickstart.png";
 
 const Projects = () => {
@@ -24,9 +22,9 @@ const Projects = () => {
             <ProjectCard
               imgPath={lift}
               isBlog={false}
-              title="Lift-Buddy"
-              description="This online ride-sharing platform boasts a responsive front-end design, complete with an admin panel built using React and Material-UI. With the integration of Google Maps API, users can easily access directions on the map. The platform allows for full CURD functionality on profiles and posts, and users can confirm or cancel a ride from a post and message each other after confirmation. Additionally, users can easily reset their password. The back-end is powered by a Node Express server and utilizes MongoDB for the database management."
-              ghLink="https://github.com/19sajib/lift-buddy"
+              title="Hotel Booking Website"
+              description="A hotel booking management system simplifies reservations, cancellations, and guest management. The responsive front-end, built with React and Material-UI, ensures a seamless user experience. Users can search hotels, check availability, and book rooms instantly. The admin panel allows managing room details, pricing, and user profiles. Secure authentication and payment integration ensure safety. The backend, powered by Node.js and MongoDB, supports CRUD operations. Customers receive booking confirmations, cancellation options, and support via chat for inquiries and modifications."
+              ghLink="https://github.com/gouravghoshi55/hotelbooking-website.git"
             />
           </Col>
 
@@ -34,9 +32,9 @@ const Projects = () => {
             <ProjectCard
               imgPath={project}
               isBlog={false}
-              title="Social Media"
-              description="This platform features a responsive interface built with Reactjs and CSS, allowing users to easily manage their profiles and posts through CRUD activities. The option to follow other users and interact with their posts (like or dislike) is also available, with suggestions for new users to follow. Users can only view posts from their followed users and can only engage in chat with those they follow. The backend is powered by Nodejs and Expressjs server, while MongoDB is utilized as the database."
-              ghLink="https://github.com/19sajib/social-media"
+              title="Train Ticket Booking"
+              description="A train ticket booking system streamlines ticket reservations, cancellations, and passenger management. The user-friendly front-end, built with React and Material-UI, allows travelers to search for trains, check availability, and book seats instantly. The admin panel manages routes, pricing, and user profiles. Secure authentication and payment integration enhance safety. The backend, powered by Node.js and MongoDB, supports full CRUD functionality. Users receive booking confirmations, cancellation options, and real-time notifications for schedule updates, ensuring a seamless travel experience."
+              ghLink="https://github.com/gouravghoshi55/Train-ticket-booking.git"
             />
           </Col>
 
@@ -44,13 +42,13 @@ const Projects = () => {
             <ProjectCard
               imgPath={kickstart}
               isBlog={false}
-              title="E‑Commerce Website"
-              description="This ecommerce website utilizes a REST API built with Nodejs and Expressjs, allowing for easy CRUD operations on user profiles, products and admin panel. The user interface is designed for efficient product management and includes a complete purchase process. The admin panel, accessible for CRUD on users and products, includes a chart for statistics display. Stripe API is integrated to handle customer payments. The website uses MongoDB and Firebase as the database."
-              ghLink="https://github.com/19sajib/mern-stack-ecommerce"
+              title="Music-Player"
+              description="A music player app provides seamless audio playback with a sleek, user-friendly interface. Built with React and Material-UI, it supports playlist creation, song categorization, and real-time search. Users can play, pause, skip tracks, and adjust volume effortlessly. The admin panel manages song uploads, metadata, and user preferences. The backend, powered by Node.js and MongoDB, enables CRUD operations. With offline support, equalizer settings, and personalized recommendations, the app enhances the listening experience for music lovers."
+              ghLink="https://github.com/gouravghoshi55/music-player.git"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={pg}
               isBlog={false}
@@ -58,9 +56,9 @@ const Projects = () => {
               description="This blogging application features a RESTful API server built with Nodejs and Expressjs. The data is retrieved from the API server and displayed on a user-friendly interface designed using React, Redux, and styled-components for a seamless experience."
               ghLink="https://github.com/19sajib/mern-blog-app"
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={krypto}
               isBlog={false}
@@ -69,9 +67,9 @@ const Projects = () => {
               ghLink="https://github.com/19sajib/Project-Krypto-Web-3.0"
               demoLink="https://project-krypto.netlify.app/"
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={kickstart}
               isBlog={false}
@@ -79,7 +77,8 @@ const Projects = () => {
               description="Solidity Kickstart is a Web 3 project that utilizes an Ethereum smart contract created using Solidity. It includes all the functionality of a kickstart platform, enabling users to interact with their Metamask wallet, transfer Ethereum and participate in kickstart campaigns."
               ghLink="https://github.com/19sajib/Solidity-Kickstart"
             />
-          </Col>
+          </Col> */}
+
         </Row>
       </Container>
     </Container>
